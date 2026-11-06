@@ -12,7 +12,7 @@ export default function HowItWorksSection() {
           {steps.map((step, index) => <article key={step.title} data-reveal style={{ '--reveal-delay': `${index * 80}ms` }} className="reveal group relative flex min-h-[290px] flex-col border-b border-r border-line p-7 transition-colors hover:bg-paper md:min-h-[350px]">
             <span className="eyebrow text-muted">0{index + 1}</span>
             <div className="mb-8 mt-7 h-px bg-line" />
-            <h3 className="text-[32px] font-bold leading-none tracking-[-.06em]">{step.title}</h3>
+            <h3 className="text-[32px] font-bold leading-normal tracking-[-2px] md:text-[35px]">{step.title}</h3>
             <p className="mt-6 text-[13px] leading-6 text-muted">{step.description}</p>
             <span aria-hidden="true" className="mt-auto self-end pt-10 text-lg text-purple transition-transform group-hover:-translate-y-1 group-hover:translate-x-1">↗</span>
           </article>)}

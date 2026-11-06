@@ -9,6 +9,7 @@ import MissionSection from '../components/MissionSection'
 import CommunitySection from '../components/CommunitySection'
 import JoinSection from '../components/JoinSection'
 import SiteFooter from '../components/SiteFooter'
+import CursorGlow from '../components/CursorGlow'
 
 export default function LandingPage() {
   const pageRef = useScrollReveal()
@@ -28,6 +29,7 @@ export default function LandingPage() {
         <JoinSection />
       </main>
       <SiteFooter />
+      <CursorGlow />
     </div>
   )
 }

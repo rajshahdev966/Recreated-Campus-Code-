@@ -4,7 +4,7 @@ export default function CommunitySection() {
       <div className="section-width grid md:grid-cols-2">
         <div data-reveal className="reveal py-20 md:py-28">
           <p className="eyebrow mb-14 text-muted">The network</p>
-          <h2 className="display-type text-[clamp(66px,8.8vw,140px)]">Find<br />your<br /><span className="outline-type">people.</span></h2>
+          <h2 className="display-type text-[clamp(54px,9vw,140px)]">Find<br />your<br /><span className="outline-type">people.</span></h2>
         </div>
         <div data-reveal className="reveal flex flex-col items-center justify-center border-t border-line py-16 md:border-l md:border-t-0 md:py-20">
           <div aria-hidden="true" className="relative flex aspect-square w-[70%] max-w-[330px] items-center justify-center">

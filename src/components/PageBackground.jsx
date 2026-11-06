@@ -1,4 +1,4 @@
-export default function HeroBackground() {
+export default function PageBackground() {
   return (
     <div aria-hidden="true" className="pointer-events-none absolute inset-0 overflow-hidden">
       <div className="absolute right-[7%] top-[12%] size-[480px] rounded-full bg-purple/15 blur-[100px]" />

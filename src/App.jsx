@@ -1,5 +1,5 @@
-import LandingPage from './features/landing page/UI/pages/LandingPage'
+import AppRoutes from './routes/AppRoutes'
 
 export default function App() {
-  return <LandingPage />
+  return <AppRoutes />
 }
